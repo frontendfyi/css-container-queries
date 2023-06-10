@@ -1,5 +1,9 @@
 {
-  "openFiles": ["src/App.tsx", "src/index.css"],
+  "openFiles": [
+    "src/App.tsx",
+    "src/index.css",
+    "src/generated-container-styles.css"
+  ],
   "otherFiles": ["tailwind.config.js"],
   "activeFile": "src/App.tsx",
   "template": "vite-react-ts",
