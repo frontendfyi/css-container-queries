@@ -49,17 +49,13 @@ type CategoryProps = {
 
 const Category = ({ name, image, intro }: CategoryProps) => {
   return (
-    <div className="relative flex aspect-square overflow-clip
-    rounded-md bg-black text-white @container/category">
+    <div className="relative flex aspect-square overflow-clip rounded-md bg-black text-white @container/category">
       <img
         src={image}
         alt=""
         className="absolute h-full w-full object-cover @[700px]:w-[70%]"
       />
-      <div className="relative z-10 flex w-full flex-col items-center
-      justify-center p-5 @container @[350px]:items-start
-      @[350px]:justify-end @[700px]:left-[70%] @[700px]:w-[30%]
-      @[700px]:justify-start">
+      <div className="relative z-10 flex w-full flex-col items-center justify-center p-5 @container @[350px]:items-start @[350px]:justify-end @[700px]:left-[70%] @[700px]:w-[30%] @[700px]:justify-start">
         <p className="text-2xl @[350px]:text-4xl">{name}</p>
         <p className="mt-2 hidden @[350px]/category:block @[700px]/category:mt-5">
           {intro}
